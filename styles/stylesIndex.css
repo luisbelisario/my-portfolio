@@ -103,8 +103,8 @@ header {
     padding: 5px 168px;
 }
 
-.flag-img {
-    padding: 0 2px;
+.language-container a {
+    padding: 4px;
 }
 
 /* HERO AREA */
@@ -114,7 +114,8 @@ header {
     justify-content: space-evenly;
     height: 500px;
     padding: 5px 120px;
-    margin-bottom: 200px;
+    margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .hero-text {
@@ -156,7 +157,7 @@ header {
 
 .btn:hover {
     cursor: pointer;
-    background-color: #616161;
+    background-color: #141217;
 }
 
 .hero-img {
@@ -166,6 +167,79 @@ header {
     margin-top: 20px;
     margin-right: 50px;
     width: 400px;
+}
+
+/* BACKGROUND AREA */
+.bg-area {
+    background-image: url("../images/cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PROJECTS AREA */
+.projects-area {
+    background-image: url("../images/projects.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+}
+
+.title {
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    top: 80px;
+    left: 200px;
+}
+
+.title-h1 {
+    font-size: 48px;
+    font-weight: normal;
+    color: #0D0D0E;
+}
+
+.projects {
+    margin-top: 30px;
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 160px;
+    left: 200px;
+}
+
+.projects ul li {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button-projects {
+    max-width: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-projects {
+    margin-top: 40px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    border-radius: 7px;
+    outline: 0;
+    padding: 10px 40px;
+    background-color: #1E2D41;
+    color: #FFF;
+    font-size: medium;
+}
+
+.btn-projects:hover {
+    cursor: pointer;
+    background-color: #141217;
 }
 
 @media screen and 
@@ -182,12 +256,30 @@ header {
         align-items: center;
     }
 
+    .nav-wrapper {
+        min-width: 400px;
+    }
+
+    .nav-list {
+        max-width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .nav-list li {
+        margin: 0px;
+    }
+
     /* LANGUAGE-AREA */
     .language-area {
         display: flex;
         justify-content: flex-end;
-        padding: 0px 10px;
+        padding: 0px 16px;
         margin-top: 30px;
+    }
+
+    .language-container a {
+        padding: 4px;
     }
 
     /* HERO AREA */
@@ -196,7 +288,7 @@ header {
         flex-direction: column;
         align-items: center;
         height: 500px;
-        margin-bottom: 200px;
+        margin-bottom: 30px;
         width: 100vw;
         height: 1000px;
         padding: 0px;
@@ -210,6 +302,58 @@ header {
         text-align: center;
         margin-top: 0px;
         padding-right: 0px;
-        width: 400px;
+        width: 300px;
+    }
+
+    /* BACKGROUND AREA */
+    .bg-area {
+        background-image: url("../images/cover.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        min-height: 30vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* PROJECTS AREA */
+    .projects-area {
+        background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-height: 300px;
+        margin-bottom: 50px;
+    }
+    
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 50px;
+        top: 80px;
+        left: 200px;
+    }
+    
+    .title h1 {
+        font-size: 48px;
+        font-weight: normal;
+        color: #0D0D0E;
+    }
+    
+    .projects {
+        margin-top: 30px;
+        margin-left: 0px;
+        max-width: 500px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        top: 160px;
+        left: 200px;
+    }
+    
+    .projects ul li {
+        font-size: 20px;
+        line-height: 30px;
     }
 }

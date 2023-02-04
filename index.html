@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/stylesIndex.css">
     <title>luisbelisario.com</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
     <header>
         <nav class="nav-container">
             <div class="nav-img">
-                <img src="./images/logo.png" alt="Voss Logo">
+                <img src="./images/logo.png" alt="Logo">
             </div>
             <div class="nav-wrapper">
                 <ul class="nav-list">
@@ -20,10 +20,10 @@
                        <a href="#index">Home</a> 
                     </li>
                     <li>
-                        <a href="#about" id="about">Sobre</a> 
+                        <a href="about.html" class="about">Sobre</a> 
                     </li>
                     <li>
-                        <a href="#projects" id="projects">Projetos</a> 
+                        <a href="#projects" class="projects-nav">Projetos</a> 
                     </li>
                 </ul>
             </div>
@@ -57,10 +57,30 @@
             </div>
         </div>
         <div class="hero-img col-6">
-            <img src="./images/me.png" alt="voss-with-plant">
+            <img src="./images/me.png" alt="photo">
         </div>
     </section>
 
-    <script src="scriptsIndex.js"></script>
+    <!--Background area-->
+    <section class="bg-area"></section>
+
+    <!--Projects area-->
+    <section class="projects-area">
+        <div class="title">
+            <h1 class="title-h1">Meus projetos</h1>
+        </div>
+        <div class="projects">
+            <ul>
+                <li>AgroStatus</li>
+                <li>Filme Flix</li>
+                <li>Cargo Database</li>
+            </ul>
+        </div>
+        <div class="button-projects">
+            <button class="btn-projects">Ver todos</button>
+        </div>
+    </section>
+
+    <script src="./scripts/scriptsIndex.js"></script>
 </body>
 </html>
