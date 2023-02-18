@@ -6,6 +6,8 @@ var langs = document.querySelector(".language-container")
     btn = document.querySelector(".btn")
     titleH1 = document.querySelector(".title-h1")
     btnProjects = document.querySelector(".btn-projects")
+    ctnTitle = document.querySelector(".contact-title")
+    ctnButton = document.querySelector(".btn-contact")
 
 link.forEach(element => {
     element.addEventListener("click", () => {
@@ -20,6 +22,8 @@ link.forEach(element => {
         btn.textContent = data[attr].btn
         titleH1.textContent = data[attr].titleH1
         btnProjects.textContent = data[attr].btnProjects
+        ctnTitle.textContent = data[attr].ctnTitle
+        ctnButton.textContent = data[attr].ctnButton
     })
 });
 
@@ -32,7 +36,9 @@ var data = {
         "Quer saber se posso contribuir com seu projeto? Clique no botão abaixo e saiba mais",
         btn: "Saiba mais",
         titleH1: "Meus projetos",
-        btnProjects: "Ver todos"
+        btnProjects: "Ver todos",
+        ctnTitle: "Entre em contato",
+        ctnButton: "Enviar"
     },
     english: {
         about: "About",
@@ -44,6 +50,8 @@ var data = {
         " Click the button below and learn more",
         btn: "Click here",
         titleH1: "My projects",
-        btnProjects: "See all"
+        btnProjects: "See all",
+        ctnTitle: "Contact me",
+        ctnButton: "Send"
     }
 }
