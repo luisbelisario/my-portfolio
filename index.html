@@ -84,10 +84,12 @@
     <section class="contact-area" id="contact">
         <h1 class="contact-title">Entre em contato</h1>
         <div class="contact-form-wrapper">
-            <form action="./scripts/mail.php" method="POST" class="contact-form">
+            <form action="https://api.staticforms.xyz/submit" method="POST" class="contact-form">
+                <input type="hidden" name="accessKey" value="9f2f7b18-e31c-4971-a676-17675b724f4f">
+                <input type="hidden" name="redirectTo" value="https://luisbelisario.com">
                 <input type="text" name="name" placeholder="Name">
                 <input type="email" name="email" placeholder="Email">
-                <textarea name="msg" cols="50" rows="12" placeholder=" Message"></textarea>
+                <textarea name="message" cols="50" rows="12" placeholder=" Message"></textarea>
                 <div class="contact-form-btn-container">
                     <button class="btn-contact">Enviar</button>
                 </div>
