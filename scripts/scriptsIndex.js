@@ -1,32 +1,3 @@
-var langs = document.querySelector(".language-container")
-    link = document.querySelectorAll("a")
-    about = document.querySelector(".about")
-    projectsNav = document.querySelector(".projects-nav")
-    introText = document.querySelector(".introText")
-    btn = document.querySelector(".btn")
-    titleH1 = document.querySelector(".title-h1")
-    btnProjects = document.querySelector(".btn-projects")
-    ctnTitle = document.querySelector(".contact-title")
-    ctnButton = document.querySelector(".btn-contact")
-
-link.forEach(element => {
-    element.addEventListener("click", () => {
-        langs.querySelector(".active").classList.remove("active")
-        element.classList.add("active")
-
-        let attr = element.getAttribute("language")
-
-        about.textContent = data[attr].about
-        projectsNav.textContent = data[attr].projectsNav
-        introText.textContent = data[attr].introText
-        btn.textContent = data[attr].btn
-        titleH1.textContent = data[attr].titleH1
-        btnProjects.textContent = data[attr].btnProjects
-        ctnTitle.textContent = data[attr].ctnTitle
-        ctnButton.textContent = data[attr].ctnButton
-    })
-});
-
 var data = {
     portuguese: {
         about: "Sobre",
@@ -55,3 +26,45 @@ var data = {
         ctnButton: "Send"
     }
 }
+
+var langs = document.querySelector(".language-container")
+    link = document.querySelectorAll("a")
+    about = document.querySelector(".about")
+    projectsNav = document.querySelector(".projects-nav")
+    introText = document.querySelector(".introText")
+    btn = document.querySelector(".btn")
+    titleH1 = document.querySelector(".title-h1")
+    btnProjects = document.querySelector(".btn-projects")
+    ctnTitle = document.querySelector(".contact-title")
+    ctnButton = document.querySelector(".btn-contact")
+
+var lang = sessionStorage.getItem("language")
+if(lang != null) {
+    about.textContent = data[lang].about
+    projectsNav.textContent = data[lang].projectsNav
+    introText.textContent = data[lang].introText
+    btn.textContent = data[lang].btn
+    titleH1.textContent = data[lang].titleH1
+    btnProjects.textContent = data[lang].btnProjects
+    ctnTitle.textContent = data[lang].ctnTitle
+    ctnButton.textContent = data[lang].ctnButton
+}
+
+link.forEach(element => {
+    element.addEventListener("click", () => {
+        langs.querySelector(".active").classList.remove("active")
+        element.classList.add("active")
+
+        let attr = element.getAttribute("language")
+        sessionStorage.setItem("language", attr)
+
+        about.textContent = data[attr].about
+        projectsNav.textContent = data[attr].projectsNav
+        introText.textContent = data[attr].introText
+        btn.textContent = data[attr].btn
+        titleH1.textContent = data[attr].titleH1
+        btnProjects.textContent = data[attr].btnProjects
+        ctnTitle.textContent = data[attr].ctnTitle
+        ctnButton.textContent = data[attr].ctnButton
+    })
+});
