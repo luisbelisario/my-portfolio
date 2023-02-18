@@ -314,7 +314,7 @@ header {
 /* FOOTER */
 footer {
     background-color: #141217;
-    padding: 20px;
+    padding: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -459,5 +459,10 @@ footer {
     .contact-form-wrapper {
         margin-top: 40px;
         max-width: 300px;
+    }
+    
+    /* FOOTER */
+    footer {
+        padding: 10px;
     }
 }
