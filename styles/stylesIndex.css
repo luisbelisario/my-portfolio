@@ -199,7 +199,7 @@ header {
 }
 
 .title-h1 {
-    font-size: 48px;
+    font-size: 60px;
     font-weight: normal;
     color: #0D0D0E;
 }
@@ -215,8 +215,8 @@ header {
 }
 
 .projects ul li {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 35px;
 }
 
 .button-projects {
@@ -331,6 +331,28 @@ footer {
 .footer-img {
     max-width: 30px;
     max-height: 30px;
+}
+
+@media screen and 
+(min-width: 640px) and
+(max-width: 1500px) {
+
+    /* BACKGROUND AREA */
+    .bg-area {
+        background-image: url("../images/cover.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        min-height: 80vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* FOOTER */
+    footer {
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
 }
 
 
