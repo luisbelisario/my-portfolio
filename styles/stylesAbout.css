@@ -117,7 +117,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 630px;
+    max-width: 720px;
 }
 
 .about-text h1 {
@@ -148,6 +148,13 @@ header {
     padding: 15px 0px;
 }
 
+/* EXPERIENCE-AREA */
+.experience-area {
+    padding: 80px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
 .text-container h2 {
     font-size: 25px;
     padding: 5px 0px;
@@ -161,8 +168,11 @@ header {
 }
 
 .links-container {
+    display: flex;
+    flex-direction: column;
     margin-right: 50px;
-    max-height: 400px;
+    height: 500px;
+    min-width: 500px;
 }
 
 .links-container a {
@@ -171,12 +181,15 @@ header {
 
 .linkedin-container {
     display: flex;
+    justify-content: end;
     align-items: center;
     padding: 5px 0;
 }
 
 .download-container {
+    width: 500px;
     display: flex;
+    justify-content: end;
     align-items: center;
     padding: 5px 0;
 }
