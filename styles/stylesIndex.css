@@ -150,14 +150,14 @@ header {
     border-radius: 7px;
     outline: 0;
     padding: 10px 40px;
-    background-color: #1E2D41;
+    background-color: #141217;
     color: #FFF;
     font-size: medium;
 }
 
 .btn:hover {
     cursor: pointer;
-    background-color: #141217;
+    background-color: #1E2D41; 
 }
 
 .hero-img {
@@ -232,14 +232,14 @@ header {
     border-radius: 7px;
     outline: 0;
     padding: 10px 40px;
-    background-color: #1E2D41;
+    background-color: #141217;
     color: #FFF;
     font-size: medium;
 }
 
 .btn-projects:hover {
     cursor: pointer;
-    background-color: #141217;
+    background-color: #1E2D41;
 }
 
 /* CONTACT AREA */
@@ -403,7 +403,7 @@ footer {
         background-size: 100%;
         background-repeat: no-repeat;
         display: flex;
-        min-height: 30vh;
+        min-height: 20vh;
         justify-content: center;
         align-items: center;
     }
