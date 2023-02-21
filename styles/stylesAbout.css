@@ -108,7 +108,7 @@ header {
 
 /* ABOUT-AREA */
 .about-me-area {
-    padding: 80px 200px;
+    padding: 80px 150px;
     display: flex;
     justify-content: space-between;
 }
@@ -150,7 +150,7 @@ header {
 
 /* EXPERIENCE-AREA */
 .experience-area {
-    padding: 80px 200px;
+    padding: 85px 150px;
     display: flex;
     justify-content: space-between;
 }
