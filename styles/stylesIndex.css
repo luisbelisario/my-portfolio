@@ -85,15 +85,18 @@ header {
     margin: 0px 50px;
 }
 
-.nav-list a {
+.nav-list button {
     text-decoration: none;
     font-size: 18px;
     color: #0D0D0E;
+    border:none!important;
+    background-color: white!important;
 }
 
-.nav-list a:hover {
+.nav-list button:hover {
     text-decoration: none;
     color: #1E2D41;
+    cursor: pointer;
 }
 
 /* LANGUAGE-AREA */
@@ -331,6 +334,19 @@ footer {
 .footer-img {
     max-width: 30px;
     max-height: 30px;
+}
+
+.footer-img-container button {
+    text-decoration: none;
+    border:none!important;
+    background-color: #000!important;
+    padding: 0 1px;
+}
+
+.footer-img-container button:hover {
+    text-decoration: none;
+    color: #1E2D41;
+    cursor: pointer;
 }
 
 @media screen and 
