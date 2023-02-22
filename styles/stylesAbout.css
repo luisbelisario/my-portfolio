@@ -335,13 +335,17 @@ footer {
     .language-container a {
         padding: 4px;
     }
+    
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
 
     /* ABOUT-AREA */
     .about-me-area {
         display: flex;
         flex-direction: column;
         align-items: center;
-        height: 920px;
         margin-bottom: 0px;
         margin-top: 50px;
         width: 100vw;
@@ -386,9 +390,8 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 1000px;
         margin-bottom: 0px;
-        margin-top: 0px;
+        margin-top: 50px;
         width: 100vw;
         padding: 0px;
     }
@@ -398,7 +401,7 @@ footer {
         flex-direction: row;
         justify-content: center;
         margin-right: 0px;
-        height: 500px;
+        height: 150px;
         min-width: 50px;
         max-width: 400px;
         width: 100vw;
