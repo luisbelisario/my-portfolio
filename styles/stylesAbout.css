@@ -75,6 +75,21 @@ header {
     align-items: center;
 }
 
+.nav-img {
+    text-decoration: none;
+    font-size: 18px;
+    color: #0D0D0E;
+    border:none!important;
+    background-color: white!important;
+    padding: 0 0;
+}
+
+.nav-img:hover {
+    text-decoration: none;
+    color: #1E2D41;
+    cursor: pointer;
+}
+
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -84,15 +99,18 @@ header {
     margin: 0px 50px;
 }
 
-.nav-list a {
+.nav-list button {
     text-decoration: none;
     font-size: 18px;
     color: #0D0D0E;
+    border:none!important;
+    background-color: white!important;
 }
 
-.nav-list a:hover {
+.nav-list button:hover {
     text-decoration: none;
     color: #1E2D41;
+    cursor: pointer;
 }
 
 /* LANGUAGE-AREA */
@@ -205,6 +223,19 @@ header {
     color: #0D0D0E;
 }
 
+.linkedin-container button {
+    text-decoration: none;
+    border:none!important;
+    background-color: #FFF!important;
+    padding: 0 1px;
+}
+
+.linkedin-container button:hover {
+    text-decoration: none;
+    color: #1E2D41;
+    cursor: pointer;
+}
+
 .download-container img {
     padding-right: 5px;
     width: 30px;
@@ -214,6 +245,19 @@ header {
 .download-container p {
     text-decoration: underline;
     color: #0D0D0E;
+}
+
+.download-container button {
+    text-decoration: none;
+    border:none!important;
+    background-color: #FFF!important;
+    padding: 0 0px;
+}
+
+.download-container button:hover {
+    text-decoration: none;
+    color: #1E2D41;
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -236,6 +280,19 @@ footer {
 .footer-img {
     max-width: 30px;
     max-height: 30px;
+}
+
+.footer-img-container button {
+    text-decoration: none;
+    border:none!important;
+    background-color: #000!important;
+    padding: 0 1px;
+}
+
+.footer-img-container button:hover {
+    text-decoration: none;
+    color: #1E2D41;
+    cursor: pointer;
 }
 
 /* RESPONSIVIDADE MOBILE */
