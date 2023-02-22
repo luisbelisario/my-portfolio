@@ -393,7 +393,7 @@ footer {
 (max-width: 640px) {
     /* HEADER */
     header {
-        padding: 5px 10px;
+        padding: 0px 0px;
     }
 
     .nav-container {
@@ -403,7 +403,7 @@ footer {
     }
 
     .nav-wrapper {
-        min-width: 400px;
+        min-width: 370px;
     }
 
     .nav-list {
@@ -517,6 +517,7 @@ footer {
     
     /* FOOTER */
     footer {
-        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 10px;
     }
 }
