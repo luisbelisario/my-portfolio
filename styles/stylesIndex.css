@@ -174,7 +174,7 @@ header {
     background-image: url("../images/cover.png");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 90vh;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -340,10 +340,11 @@ footer {
     /* BACKGROUND AREA */
     .bg-area {
         background-image: url("../images/cover.png");
-        background-size: 100%;
+        background-size: 80%;
+        background-size: cover;
         background-repeat: no-repeat;
         display: flex;
-        min-height: 80vh;
+        min-height: 70vh;
         justify-content: center;
         align-items: center;
     }
