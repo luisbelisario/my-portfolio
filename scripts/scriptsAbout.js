@@ -3,7 +3,7 @@ var data = {
         about: "Sobre",
         projectsNav: "Projetos",
         aboutTitle: "Sobre mim",
-        aboutParagraph: "Sou desenvolvedor Back-End com experiência de 2 anos e "+ 
+        aboutParagraph: "Sou desenvolvedor back-end com experiência de 2 anos e "+ 
         "foco na linguagem Java com framework Springboot. "+ 
         "Atualmente ocupo a função de Desenvolvedor Back-End Pleno na Maida Health, "+ 
         "empresa pertencente ao grupo Hapvida | Notredame Intermédica, um dos "+ 
@@ -32,10 +32,10 @@ var data = {
         about: "About",
         projectsNav: "Projects",
         aboutTitle: "About me",
-        aboutParagraph: "I am a Back-end developer with 2 year experience and "+
+        aboutParagraph: "I am a back-end developer with 2 year experience and "+
         "focus on Java Language with framework Springboot. "+
-        "I´m currently working as a Back-end developer at Maida Health Haptech, "+
-        "a company of the Hapvida | Notredame Intermédica, one of the "+
+        "I´m currently working as a back-end developer at Maida Health Haptech, "+
+        "a company of the Hapvida | Notredame Intermédica group, one of the "+
         "biggest health plans in Brazil. In this experience I've been bulding "+
         "and maintaining Java | Springboot scalable applications with the "+
         "best software practices, such as Design Patterns and Solid Principles. "+
