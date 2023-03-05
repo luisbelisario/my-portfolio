@@ -63,10 +63,6 @@ html, body {
     width: 94vw;
 }
 
-.col-4 {
-    width: 33.33%;
-}
-
 /* HEADER */
 
 header {
@@ -128,144 +124,78 @@ header {
     padding: 4px;
 }
 
-/* ABOUT-AREA */
-.about-me-area {
-    padding: 80px 150px;
+.title-container {
     display: flex;
-    justify-content: space-between;
-}
-
-.about-text {
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    max-width: 720px;
+    padding: 80px 120px;
 }
 
-.about-text h1 {
+.title-container p {
+    text-align: center;
     font-size: 55px;
-    margin-bottom: 30px;
+    min-width: 300px; 
 }
 
-.about-text p {
-    font-size: 22px;
-    text-align: justify;
-    line-height: 28px;
-}
-
-.about-img {
+.content-container {
     display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-right: 40px;
-    min-width: 500px;
-    width: 500px;
+    max-width: 1500px;
+    flex-direction: row;
+    padding: 28px 125px;
 }
 
-.about-img img {
-    height: 500px;
-}
-
-.text-container {
-    padding: 15px 0px;
-}
-
-/* EXPERIENCE-AREA */
-.experience-area {
-    padding: 85px 150px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.text-container h2 {
-    font-size: 25px;
-    padding: 5px 0px;
-    font-weight: 600;
-}
-
-.text-container h3 {
-    font-size: 20px;
-    padding: 8px 0px;
-    font-weight: 600;
-}
-
-.links-container {
+.box-container {
+    min-width: 33.33%;
+    padding: 5px 20px;
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
-    height: 500px;
-    min-width: 500px;
-}
-
-.links-container a {
-    text-decoration: none;
-}
-
-.linkedin-container {
-    display: flex;
-    justify-content: end;
     align-items: center;
-    padding: 5px 0;
 }
 
-.download-container {
-    width: 500px;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 5px 0;
+.box-container img {
+    max-width: 380px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    padding-bottom: 10px;
 }
 
-.linkedin-container img {
-    padding-right: 5px;
-    width: 30px;
-    height: 30px;
+.box-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 0;
 }
 
-.linkedin-container p {
-    text-decoration: underline;
-    color: #0D0D0E;
+.box-container p {
+    text-align: center;
+    padding: 10px 0;
 }
 
-.linkedin-container button {
+.box-container button {
     text-decoration: none;
-    border:none!important;
-    background-color: #FFF!important;
-    padding: 0 1px;
+    font-size: 18px;
+    color: white;
+    background-color: #0D0D0E!important;
+    margin-top: 10px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    border-radius: 7px;
+    outline: 0;
+    padding: 10px 40px;
+    background-color: #141217;
+    color: #FFF;
+    font-size: medium;
 }
 
-.linkedin-container button:hover {
+.box-container button:hover {
     text-decoration: none;
-    color: #1E2D41;
+    background-color: #1E2D41!important;
     cursor: pointer;
-}
-
-.download-container img {
-    padding-right: 5px;
-    width: 30px;
-    height: 30px;
-}
-
-.download-container p {
-    text-decoration: underline;
-    color: #0D0D0E;
-}
-
-.download-container button {
-    text-decoration: none;
-    border:none!important;
-    background-color: #FFF!important;
-    padding: 0 0px;
-}
-
-.download-container button:hover {
-    text-decoration: none;
-    color: #1E2D41;
-    cursor: pointer;
+    color: #FFF;
 }
 
 /* FOOTER */
 footer {
+    margin-top: 500px;
     background-color: #141217;
     padding: 10px;
     display: flex;
@@ -297,6 +227,27 @@ footer {
     text-decoration: none;
     color: #1E2D41;
     cursor: pointer;
+}
+
+@media screen and 
+(min-width: 640px) and
+(max-width: 1500px) {
+
+    .content-container {
+        display: flex;
+        max-width: 1000px;
+        flex-direction: row;
+        padding: 28px 125px;
+    }
+    
+    .box-container {
+        min-width: 33.33%;
+        padding: 5px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
 
 /* RESPONSIVIDADE MOBILE */
@@ -339,95 +290,40 @@ footer {
     .language-container a {
         padding: 4px;
     }
+
+    .title-container {
+        padding-bottom: 58px;
+    }
     
     .content-container {
         display: flex;
         flex-direction: column;
-    }
-
-    /* ABOUT-AREA */
-    .about-me-area {
-        display: flex;
-        flex-direction: column;
         align-items: center;
-        margin-bottom: 0px;
-        margin-top: 50px;
-        width: 100vw;
-        padding: 0px;
-    }
-
-    .about-img {
-        display: none;
-        justify-content: end;
-        align-items: center;
-        margin-right: 0px;
-        min-width: 0px;
-        width: 0px;
-    }
-    
-    .about-img img {
-        height: 0px;
-    }
-
-    .about-text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        max-width: 80vw;
-    }
-    
-    .about-text h1 {
-        font-size: 45px;
-        margin-bottom: 30px;
         text-align: center;
-    }
-    
-    .about-text p {
-        font-size: 16px;
-        text-align: justify;
-        line-height: 28px;
+        padding: 0px 10px;
     }
 
-    /* EXPERIENCE AREA */
-    .experience-area {
+    .box-container {
+        min-width: 33.33%;
+        width: 300px;
+        padding: 30px 0px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin-bottom: 0px;
-        margin-top: 50px;
-        width: 100vw;
-        padding: 0px;
+        justify-content: center;
     }
 
-    .links-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        margin-right: 0px;
-        height: 150px;
-        min-width: 50px;
-        max-width: 400px;
-        width: 100vw;
-    }
-
-    .linkedin-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0 48px;
-    }
-    
-    .download-container {
-        display: flex;
-        width: 100px;
-        align-items: center;
-        padding: 0 48px;
+    .box-container img {
+        max-width: 300px;
+        max-height: 200px;
+        width: auto;
+        height: auto;
+        padding-bottom: 10px;
     }
 
     /* FOOTER */
     footer {
         background-color: #141217;
+        margin-top: 200px;
         padding: 10px;
         display: flex;
         justify-content: center;
