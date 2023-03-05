@@ -242,12 +242,15 @@ footer {
     
     .box-container {
         min-width: 33.33%;
-        padding: 5px 20px;
+        padding: 5px 28px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
+    .box-container img {
+        max-width: 300px;
+    }
 }
 
 /* RESPONSIVIDADE MOBILE */
