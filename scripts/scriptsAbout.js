@@ -4,7 +4,7 @@ var data = {
         projectsNav: "Projetos",
         aboutTitle: "Sobre mim",
         aboutParagraph: "Sou desenvolvedor back-end com experiência de 2 anos e "+ 
-        "foco na linguagem Java com framework Springboot. "+ 
+        "foco na linguagem Java com o framework Springboot. "+ 
         "Atualmente ocupo a função de Desenvolvedor Back-End Pleno na Maida Health, "+ 
         "empresa pertencente ao grupo Hapvida | Notredame Intermédica, um dos "+ 
         "maiores planos de saúde do Brasil. Nessa experiência atuo desenvolvendo "+ 
@@ -14,7 +14,7 @@ var data = {
         "aplicações com Sonarqube e utilização de arquitetura de microsserviços "+ 
         "com comunicação via Kafka e Feign. Também possuo experiência com bancos de "+ 
         "dados relacionais (MySQL, Postgres, SQL Server) e não relacionais (MongoDB) "+ 
-        "e conhecimento das linguagens Python para Back-End, inteligência "+ 
+        "e conhecimento das linguagens Python para back-end, inteligência "+ 
         "artificial e Machine Learning além de desenvolvimento web com HTML, CSS e Javascript.",
         experienceTitle: "Experiência",
         experienceSubtitle1: "Jan 2023 - Presente",
@@ -33,7 +33,7 @@ var data = {
         projectsNav: "Projects",
         aboutTitle: "About me",
         aboutParagraph: "I am a back-end developer with 2 years experience and "+
-        "focus on Java language with framework Springboot. "+
+        "focus on Java language with Springboot framework. "+
         "I´m currently working as a back-end developer at Maida Health Haptech, "+
         "a company of the Hapvida | Notredame Intermédica group, one of the "+
         "biggest health plans in Brazil. In this experience I've been bulding "+
@@ -43,7 +43,7 @@ var data = {
         "applications with Sonarqube and microservices architecture "+
         "with communication via Kafka and Feign. I also have experience with "+
         "relational databases (MySQL, Postgres, SQL Server) and non-relational databases (MongoDB). "+
-        "In my prior experiences I've also worked with of Python for Back-End, Artificial Intelligence "+
+        "In my prior experiences I've also worked with of Python for back-end, Artificial Intelligence "+
         "and Machine Learning as well as web development with HTML, CSS and JavaScript.",
         experienceTitle: "Experiences",
         experienceSubtitle1: "Jan 2023 - Present",
