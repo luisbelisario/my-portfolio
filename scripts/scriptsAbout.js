@@ -22,7 +22,7 @@ var data = {
         experienceSubtitle3: "Jun 2021 - Dez 2021",
         experienceParagraph1: "Desenvolvimento e manutenção de APIs Java | Springboot em arquitetura "+ 
         "de microsserviços, mensageria para comunicação entre as APIS (Kafka), banco de dados "+ 
-        "NoSQL (MongoDb), Testes Unitários (JUnit).",
+        "NoSQL (MongoDB), Testes Unitários (JUnit).",
         experienceParagraph2: "Desenvolvimento e manutenção de APIs Java | Springboot em arquitetura de monolítica, "+ 
         "banco de dados SQL (Postgres), Testes Unitários (JUnit), melhoria da qualidade (Sonarqube)",
         experienceParagraph3: "Desenvolvimento e manutenção de APIs Python | Django | Flask em arquitetura de monolítica, "+ 
@@ -33,7 +33,7 @@ var data = {
         projectsNav: "Projects",
         aboutTitle: "About me",
         aboutParagraph: "I am a back-end developer with 2 years experience and "+
-        "focus on Java Language with framework Springboot. "+
+        "focus on Java language with framework Springboot. "+
         "I´m currently working as a back-end developer at Maida Health Haptech, "+
         "a company of the Hapvida | Notredame Intermédica group, one of the "+
         "biggest health plans in Brazil. In this experience I've been bulding "+
@@ -42,7 +42,7 @@ var data = {
         "In addition, I also worked in the elaboration of unit tests, improvement of "+
         "applications with Sonarqube and microservices architecture "+
         "with communication via Kafka and Feign. I also have experience with "+
-        "relational databases (MySQL, Postgres, SQL Server) and non-relational databases (Mongodb). "+
+        "relational databases (MySQL, Postgres, SQL Server) and non-relational databases (MongoDB). "+
         "In my prior experiences I've also worked with of Python for Back-End, Artificial Intelligence "+
         "and Machine Learning as well as web development with HTML, CSS and JavaScript.",
         experienceTitle: "Experiences",
@@ -51,7 +51,7 @@ var data = {
         experienceSubtitle3: "Jun 2021 - Dec 2021",
         experienceParagraph1: "Development and maintenance of Java | Springboot APIs with microservices architecture"+
         ", messaging communication between APIs (Kafka), "+
-        "non-relational databases (MongoDb), Unit Tests (Junit).",
+        "non-relational databases (MongoDB), Unit Tests (Junit).",
         experienceParagraph2: "Development and maintenance of Java | Springboot APIs in monolithic architecture, "+
         "SQL Database (Postgres), Unit Tests (Junit), Quality Improvement (Sonarqube)",
         experienceParagraph3: "Development and maintenance of Python | Django | Flask APIs in monolithic architecture, "+
