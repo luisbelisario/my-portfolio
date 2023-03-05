@@ -32,7 +32,7 @@ var data = {
         about: "About",
         projectsNav: "Projects",
         aboutTitle: "About me",
-        aboutParagraph: "I am a back-end developer with 2 year experience and "+
+        aboutParagraph: "I am a back-end developer with 2 years experience and "+
         "focus on Java Language with framework Springboot. "+
         "I´m currently working as a back-end developer at Maida Health Haptech, "+
         "a company of the Hapvida | Notredame Intermédica group, one of the "+
