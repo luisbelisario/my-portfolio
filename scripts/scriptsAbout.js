@@ -33,17 +33,17 @@ var data = {
         projectsNav: "Projects",
         aboutTitle: "About me",
         aboutParagraph: "I am a Back-end developer with 2 year experience and "+
-        "focus on Java Language with framework Springboot."+
-        "I´m currently working as Back-end developer at Maida Health,"+
-        "a company of the Hapvida | Notredame Intermédica, one of the"+
-        "biggest health plans in Brazil. In this experience I've been bulding"+
-        "and maintaining Java | Springboot scalable applications with"+
-        "best software practices, such as Design Patterns and Solid Principles."+
-        "In addition, I also worked in the elaboration of unit tests, improvement of"+
-        "applications with Sonarqube and microservices architecture"+
-        "with communication via Kafka and Feign. I also have experience with"+
-        "relational databases (MySQL, Postgres, SQL Server) and non-relational databases (Mongodb)."+
-        "In my prior experiences I've also worked with of Python for Back-End, Artificial Intelligence"+
+        "focus on Java Language with framework Springboot. "+
+        "I´m currently working as a Back-end developer at Maida Health Haptech, "+
+        "a company of the Hapvida | Notredame Intermédica, one of the "+
+        "biggest health plans in Brazil. In this experience I've been bulding "+
+        "and maintaining Java | Springboot scalable applications with the "+
+        "best software practices, such as Design Patterns and Solid Principles. "+
+        "In addition, I also worked in the elaboration of unit tests, improvement of "+
+        "applications with Sonarqube and microservices architecture "+
+        "with communication via Kafka and Feign. I also have experience with "+
+        "relational databases (MySQL, Postgres, SQL Server) and non-relational databases (Mongodb). "+
+        "In my prior experiences I've also worked with of Python for Back-End, Artificial Intelligence "+
         "and Machine Learning as well as web development with HTML, CSS and JavaScript.",
         experienceTitle: "Experiences",
         experienceSubtitle1: "Jan 2023 - Present",
