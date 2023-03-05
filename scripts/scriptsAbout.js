@@ -36,7 +36,7 @@ var data = {
         "focus on Java language with Springboot framework. "+
         "I´m currently working as a back-end developer at Maida Health Haptech, "+
         "a company of the Hapvida | Notredame Intermédica group, one of the "+
-        "biggest health plans in Brazil. In this experience I've been bulding "+
+        "biggest health companies in Brazil. In this experience I've been bulding "+
         "and maintaining Java | Springboot scalable applications with the "+
         "best software practices, such as Design Patterns and Solid Principles. "+
         "In addition, I also worked in the elaboration of unit tests, improvement of "+
