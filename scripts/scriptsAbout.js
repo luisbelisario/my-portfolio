@@ -16,7 +16,9 @@ var data = {
         "dados relacionais (MySQL, Postgres, SQL Server) e não relacionais (MongoDB) "+ 
         "e conhecimento das linguagens Python para back-end, inteligência "+ 
         "artificial e Machine Learning além de desenvolvimento web com HTML, CSS e Javascript.",
-        experienceTitle: "Experiência",
+        experience: "Experiência",
+        experienceTitle1: "Maida Health - Back-End Developer Pleno",
+        experienceTitle2: "Equatorial Energia - Estágio Engenharia de Software",
         experienceSubtitle1: "Jan 2023 - Presente",
         experienceSubtitle2: "Jan 2022 - Dez 2022",
         experienceSubtitle3: "Jun 2021 - Dez 2021",
@@ -45,7 +47,9 @@ var data = {
         "relational databases (MySQL, Postgres, SQL Server) and non-relational databases (MongoDB). "+
         "In my prior experiences I've also worked with of Python for back-end, Artificial Intelligence "+
         "and Machine Learning as well as web development with HTML, CSS and JavaScript.",
-        experienceTitle: "Experiences",
+        experience: "Experiences",
+        experienceTitle1: "Maida Health - Back-End Developer",
+        experienceTitle2: "Equatorial Energia - Software Engineering Internship",
         experienceSubtitle1: "Jan 2023 - Present",
         experienceSubtitle2: "Jan 2022 - Dec 2022",
         experienceSubtitle3: "Jun 2021 - Dec 2021",
@@ -65,7 +69,9 @@ var langs = document.querySelector(".language-container")
     projectsNav = document.querySelector(".projects-nav")
     aboutTitle = document.querySelector(".about-title")
     aboutParagraph = document.querySelector(".about-paragraph")
-    experienceTitle = document.querySelector(".experience-title")
+    experience = document.querySelector(".experience")
+    experienceTitle1 = document.querySelector(".experience-title1")
+    experienceTitle2 = document.querySelector(".experience-title2")
     experienceSubtitle1 = document.querySelector(".experience-subtitle1")
     experienceSubtitle2 = document.querySelector(".experience-subtitle2")
     experienceSubtitle3 = document.querySelector(".experience-subtitle3")
@@ -79,7 +85,9 @@ if(lang != null) {
     projectsNav.textContent = data[lang].projectsNav
     aboutTitle.textContent = data[lang].aboutTitle
     aboutParagraph.textContent = data[lang].aboutParagraph
-    experienceTitle.textContent = data[lang].experienceTitle
+    experience.textContent = data[lang].experience
+    experienceTitle1.textContent = data[lang].experienceTitle1
+    experienceTitle2.textContent = data[lang].experienceTitle2
     experienceSubtitle1.textContent = data[lang].experienceSubtitle1
     experienceSubtitle2.textContent = data[lang].experienceSubtitle2
     experienceSubtitle3.textContent = data[lang].experienceSubtitle3
@@ -100,7 +108,9 @@ link.forEach(element => {
         projectsNav.textContent = data[attr].projectsNav
         aboutTitle.textContent = data[attr].aboutTitle
         aboutParagraph.textContent = data[attr].aboutParagraph
-        experienceTitle.textContent = data[attr].experienceTitle
+        experience.textContent = data[attr].experience
+        experienceTitle1.textContent = data[attr].experienceTitle1
+        experienceTitle2.textContent = data[attr].experienceTitle2
         experienceSubtitle1.textContent = data[attr].experienceSubtitle1
         experienceSubtitle2.textContent = data[attr].experienceSubtitle2
         experienceSubtitle3.textContent = data[attr].experienceSubtitle3

@@ -168,6 +168,7 @@ header {
 .box-container p {
     text-align: center;
     padding: 10px 0;
+    line-height: 20px;
 }
 
 .box-container button {
