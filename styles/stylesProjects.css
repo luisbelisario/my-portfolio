@@ -295,7 +295,12 @@ footer {
     }
 
     .title-container {
-        padding-bottom: 58px;
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    .title-container p {
+        font-size: 45px;
     }
     
     .content-container {
