@@ -299,6 +299,25 @@ footer {
     cursor: pointer;
 }
 
+@media screen and 
+(min-width: 640px) and
+(max-width: 1500px) {
+
+    .about-img {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        margin-right: 40px;
+        min-width: 500px;
+        width: 400px;
+    }
+    
+    .about-img img {
+        margin-top: 50px;
+        height: 400px;
+    }
+}
+
 /* RESPONSIVIDADE MOBILE */
 @media screen and 
 (min-width: 200px) and
