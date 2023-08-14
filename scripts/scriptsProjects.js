@@ -14,7 +14,7 @@ var data = {
         mainTitle: "Projects",
         projectBtn: "See project",
         projectPar1: "A project for reservations and evaluations of tennis, futsal, beach tennis and beach volleyball courts",
-        projectPar2: "A simple project that simulates a car rental registration form",
+        projectPar2: "A simple project with HTML, CSS and JS that simulates a car rental registration form",
         projectPar3: "In this project I created a SQL Server database of cargo ships with various characteristics and relationships",
     }
 }
