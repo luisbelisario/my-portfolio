@@ -4,8 +4,8 @@ var data = {
         projectsNav: "Projetos",
         aboutTitle: "Sobre mim",
         aboutParagraph: "Sou desenvolvedor back-end com experiência de 2 anos e "+ 
-        "foco na linguagem Java com o framework Springboot. "+ "Atuo desenvolvendo "+ 
-        "e mantendo aplicações Java | Springboot escaláveis e construídas com "+ 
+        "foco na linguagem Java com o framework Springboot. "+ "Atuo desenvolvendo  e mantendo aplicações " +
+        "escaláveis em arquiteturas de microsserviços e monolíticas construídas com " +
         "as melhores práticas de software, tais como design patterns e princípios SOLID. "+ 
         "Além disso, também atuei na elaboração de testes unitários, melhoria das "+ 
         "aplicações com Sonarqube e utilização de arquitetura de microsserviços "+ 
@@ -34,8 +34,7 @@ var data = {
         aboutTitle: "About me",
         aboutParagraph: "I am a back-end developer with 2 years experience and "+
         "focus on Java language with Springboot framework. "+ 
-        "I've been bulding and maintaining Java | Springboot scalable applications with the "+
-        "best software practices, such as Design Patterns and Solid Principles. "+
+        "I work developing and maintaining scalable applications on microservices and monolithic architectures built with software best practices. "+
         "In addition, I also worked in the elaboration of unit tests, improvement of "+
         "applications with Sonarqube and microservices architecture "+
         "with communication via Kafka and Feign. I also have experience with "+
