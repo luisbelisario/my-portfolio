@@ -3,7 +3,7 @@ var data = {
         about: "Sobre",
         projectsNav: "Projetos",
         introText: "Desenvolvedor de software com ênfase em desenvolvimento back-end." +
-        "Tenho experência de 2+ anos com Java | Springboot e outras tecnologias." +
+        "Tenho experência de 2+ anos com Java | Spring e outras tecnologias." +
         "Quer saber se posso contribuir com seu projeto? Clique no botão abaixo e saiba mais",
         btn: "Saiba mais",
         titleH1: "Meus projetos",
@@ -16,7 +16,7 @@ var data = {
         projectsNav: "Projects",
         introText: "Software developer with emphasis on" +
         " back-end development. I have 2+ years experience" +
-        " with Java | Springboot and other technologies." +
+        " with Java | Spring and other technologies." +
         " Want to know if I can contribute to your project?" +
         " Click the button below and learn more",
         btn: "Click here",

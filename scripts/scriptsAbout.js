@@ -4,10 +4,7 @@ var data = {
         projectsNav: "Projetos",
         aboutTitle: "Sobre mim",
         aboutParagraph: "Sou desenvolvedor back-end com experiência de 2 anos e "+ 
-        "foco na linguagem Java com o framework Springboot. "+ 
-        "Atualmente ocupo a função de Desenvolvedor Back-End Pleno na Maida Health, "+ 
-        "empresa pertencente ao grupo Hapvida | Notredame Intermédica, um dos "+ 
-        "maiores planos de saúde do Brasil. Nessa experiência atuo desenvolvendo "+ 
+        "foco na linguagem Java com o framework Springboot. "+ "Atuo desenvolvendo "+ 
         "e mantendo aplicações Java | Springboot escaláveis e construídas com "+ 
         "as melhores práticas de software, tais como design patterns e princípios SOLID. "+ 
         "Além disso, também atuei na elaboração de testes unitários, melhoria das "+ 
@@ -17,8 +14,9 @@ var data = {
         "e conhecimento das linguagens Python para back-end, inteligência "+ 
         "artificial e Machine Learning além de desenvolvimento web com HTML, CSS e Javascript.",
         experience: "Experiência",
-        experienceTitle1: "Maida Health - Back-End Developer Pleno",
-        experienceTitle2: "Equatorial Energia - Estágio Engenharia de Software",
+        experienceTitle1: "Crowd - Engenheiro de Software",
+        experienceTitle2: "Maida Health - Back-End Developer",
+        experienceTitle3: "Equatorial Energia - Engenheiro de Software",
         experienceSubtitle1: "Jan 2023 - Presente",
         experienceSubtitle2: "Jan 2022 - Dez 2022",
         experienceSubtitle3: "Jun 2021 - Dez 2021",
@@ -26,7 +24,7 @@ var data = {
         "de microsserviços, mensageria para comunicação entre as APIS (Kafka), banco de dados "+ 
         "NoSQL (MongoDB), Testes Unitários (JUnit).",
         experienceParagraph2: "Desenvolvimento e manutenção de APIs Java | Springboot em arquitetura de monolítica, "+ 
-        "banco de dados SQL (Postgres), Testes Unitários (JUnit), melhoria da qualidade (Sonarqube)",
+        "banco de dados SQL (Postgres), Testes Unitários (JUnit), melhoria da qualidade (Sonarqube).",
         experienceParagraph3: "Desenvolvimento e manutenção de APIs Python | Django | Flask em arquitetura de monolítica, "+ 
         "banco de dados SQL (SQL Server), desenvolvimento web (HTML, CSS, Javascript)."
     },
@@ -35,11 +33,8 @@ var data = {
         projectsNav: "Projects",
         aboutTitle: "About me",
         aboutParagraph: "I am a back-end developer with 2 years experience and "+
-        "focus on Java language with Springboot framework. "+
-        "I´m currently working as a back-end developer at Maida Health Haptech, "+
-        "a company of the Hapvida | Notredame Intermédica group, one of the "+
-        "biggest health companies in Brazil. In this experience I've been bulding "+
-        "and maintaining Java | Springboot scalable applications with the "+
+        "focus on Java language with Springboot framework. "+ 
+        "I've been bulding and maintaining Java | Springboot scalable applications with the "+
         "best software practices, such as Design Patterns and Solid Principles. "+
         "In addition, I also worked in the elaboration of unit tests, improvement of "+
         "applications with Sonarqube and microservices architecture "+
@@ -48,16 +43,16 @@ var data = {
         "In my prior experiences I've also worked with of Python for back-end, Artificial Intelligence "+
         "and Machine Learning as well as web development with HTML, CSS and JavaScript.",
         experience: "Experiences",
-        experienceTitle1: "Maida Health - Back-End Developer",
-        experienceTitle2: "Equatorial Energia - Software Engineering Internship",
-        experienceSubtitle1: "Jan 2023 - Present",
-        experienceSubtitle2: "Jan 2022 - Dec 2022",
+        experienceTitle1: "Crowd - Software Engineer",
+        experienceTitle2: "Maida Health - Back-End Developer",
+        experienceTitle3: "Equatorial Energia - Software Engineer",
+        experienceSubtitle1: "Jun 2023 - Present",
+        experienceSubtitle2: "Jan 2022 - Jun 2023",
         experienceSubtitle3: "Jun 2021 - Dec 2021",
-        experienceParagraph1: "Development and maintenance of Java | Springboot APIs with microservices architecture"+
-        ", messaging communication between APIs (Kafka), "+
-        "non-relational databases (MongoDB), Unit Tests (Junit).",
+        experienceParagraph1: "Rest Java API Development | Spring containerized in microservices architecture deploying cloud applications (AWS) " +
+        "Skills: Apache Kafka · Amazon Web Services · MySQL · Docker · Spring Boot · Feign · MongoDB · PostgreSQL · Java · JavaScript ",
         experienceParagraph2: "Development and maintenance of Java | Springboot APIs in monolithic architecture, "+
-        "SQL Database (Postgres), Unit Tests (Junit), Quality Improvement (Sonarqube)",
+        "SQL Database (Postgres), Unit Tests (Junit), Quality Improvement (Sonarqube).",
         experienceParagraph3: "Development and maintenance of Python | Django | Flask APIs in monolithic architecture, "+
          "SQL Database (SQL Server), web development (HTML, CSS, JavaScript)."
     }
@@ -72,6 +67,7 @@ var langs = document.querySelector(".language-container")
     experience = document.querySelector(".experience")
     experienceTitle1 = document.querySelector(".experience-title1")
     experienceTitle2 = document.querySelector(".experience-title2")
+    experienceTitle3 = document.querySelector(".experience-title3")
     experienceSubtitle1 = document.querySelector(".experience-subtitle1")
     experienceSubtitle2 = document.querySelector(".experience-subtitle2")
     experienceSubtitle3 = document.querySelector(".experience-subtitle3")
@@ -88,6 +84,7 @@ if(lang != null) {
     experience.textContent = data[lang].experience
     experienceTitle1.textContent = data[lang].experienceTitle1
     experienceTitle2.textContent = data[lang].experienceTitle2
+    experienceTitle3.textContent = data[lang].experienceTitle3
     experienceSubtitle1.textContent = data[lang].experienceSubtitle1
     experienceSubtitle2.textContent = data[lang].experienceSubtitle2
     experienceSubtitle3.textContent = data[lang].experienceSubtitle3
@@ -111,6 +108,7 @@ link.forEach(element => {
         experience.textContent = data[attr].experience
         experienceTitle1.textContent = data[attr].experienceTitle1
         experienceTitle2.textContent = data[attr].experienceTitle2
+        experienceTitle3.textContent = data[attr].experienceTitle3
         experienceSubtitle1.textContent = data[attr].experienceSubtitle1
         experienceSubtitle2.textContent = data[attr].experienceSubtitle2
         experienceSubtitle3.textContent = data[attr].experienceSubtitle3

@@ -153,6 +153,7 @@ header {
 
 .box-container img {
     max-width: 380px;
+    min-width: 380px;
     max-height: 200px;
     width: auto;
     height: auto;

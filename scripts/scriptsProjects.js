@@ -4,8 +4,8 @@ var data = {
         projectsNav: "Projetos",
         mainTitle: "Projetos",
         projectBtn: "Ver projeto",
-        projectPar1: "Neste projeto faço uma análise introdutória sobre o Apache Kafka e seus processo internos de funcionamento",
-        projectPar2: "FilmexFlix é uma biblioteca de filmes que permite aos usuários visualizar sinopses de filmes e salvar seus favoritos",
+        projectPar1: "Um projeto para reservas e avaliações de quadras de tênis, futsal, beach tennis e vôlei de praia",
+        projectPar2: "Um projeto simoples que simula um formulário de cadastro de uma locadora de véiculos",
         projectPar3: "Neste projeto elaborei um banco de dados SQL Server de navios de carga com várias características e relacionamentos",
     },
     english: {
@@ -13,8 +13,8 @@ var data = {
         projectsNav: "Projects",
         mainTitle: "Projects",
         projectBtn: "See project",
-        projectPar1: "In this project I make an introductory analysis about Apache Kafka and its internal working processes",
-        projectPar2: "FilmexFlix is a movie library that allows users to view movie synopses and save their favorites",
+        projectPar1: "A project for reservations and evaluations of tennis, futsal, beach tennis and beach volleyball courts",
+        projectPar2: "A simple project that simulates a car rental registration form",
         projectPar3: "In this project I created a SQL Server database of cargo ships with various characteristics and relationships",
     }
 }
